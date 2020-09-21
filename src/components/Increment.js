@@ -1,5 +1,5 @@
 import React from "react";
-import useIncDec from "./../hooks/useIncDec";
+import { useIncDec } from "./../hooks/index";
 
 export const Increment = () => {
   const [volume, { inc, dec, reset }] = useIncDec({

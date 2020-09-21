@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const useIncDec = ({
+export const useIncDec = ({
   initial = 0,
   maxValue = 10,
   minValue = -10,
@@ -24,5 +24,3 @@ const useIncDec = ({
 
   return [value, { inc, dec, reset }];
 };
-
-export default useIncDec;
